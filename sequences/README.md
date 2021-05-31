@@ -1,0 +1,1 @@
+Sequences are given as annotated Genbank files.
