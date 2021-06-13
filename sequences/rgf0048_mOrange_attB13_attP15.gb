@@ -1,0 +1,162 @@
+LOCUS       rgf0048_mOrange_attB13_ 1258 bp ds-DNA     linear       11-APR-2020
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    26..45
+                     /label="B"
+                     /ApEinfo_revcolor=#c7b0e3
+                     /ApEinfo_fwdcolor=#c7b0e3
+     misc_feature    46..47
+                     /label="CA"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     misc_feature    48..67
+                     /label="B'"
+                     /ApEinfo_revcolor=#b7e6d7
+                     /ApEinfo_fwdcolor=#b7e6d7
+     Promoter        81..103
+                     /label="consensus T7p"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     Promoter        102..122
+                     /label="lacO"
+                     /ApEinfo_revcolor=#b7e6d7
+                     /ApEinfo_fwdcolor=#b7e6d7
+     Misc._feature   123..123
+                     /label="+1"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
+     RBS             141..149
+                     /label="SD1"
+                     /ApEinfo_revcolor=#c7b0e3
+                     /ApEinfo_fwdcolor=#c7b0e3
+     RBS             143..149
+                     /label="leader RBS"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     CDS             155..208
+                     /label="leader peptide"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     RBS             191..202
+                     /label="variable SD2"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     RBS             193..201
+                     /label="consensus E.coli RBS"
+                     /ApEinfo_revcolor=#c6c9d1
+                     /ApEinfo_fwdcolor=#c6c9d1
+     Misc._feature   208..210
+                     /label="START"
+                     /ApEinfo_revcolor=#d59687
+                     /ApEinfo_fwdcolor=#d59687
+     CDS             208..210
+                     /label="Translation 208-210"
+     CDS             211..216
+                     /label="Translation 211-216"
+     CDS             217..300
+                     /label="Translation 217-300"
+     misc_feature    218..300
+                     /label="TwinStrep v3 optEC"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     Region          301..309
+                     /label="3aa"
+                     /ApEinfo_revcolor=#faac61
+                     /ApEinfo_fwdcolor=#faac61
+     CDS             301..309
+                     /label="Translation 301-309"
+     protease        310..333
+                     /label="3C"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     CDS             310..333
+                     /label="Translation 310-333"
+     misc_feature    complement(328..333)
+                     /label="cut"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
+     Parts           334..342
+                     /label="3aa"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     CDS             334..342
+                     /label="Translation 334-342"
+     Misc. Feature   343..360
+                     /label="GFP N'"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     part            343..1047
+                     /label="rgf0018 LSSmOrange [EC]"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     CDS             343..1047
+                     /label="Translation 343-1047"
+     Misc. Feature   1027..1047
+                     /label="GFP C'"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     CDS             1048..1062
+                     /label="Translation 1048-1062"
+     Region          1063..1101
+                     /label="SpyTag"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     CDS             1063..1101
+                     /label="Translation 1063-1101"
+     misc_feature    1081..1083
+                     /label="D117 catalytic"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     Misc._feature   1102..1104
+                     /label="Stop"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     CDS             1102..1104
+                     /label="Translation 1102-1104"
+     Misc._feature   1116..1162
+                     /label="T7 Terminator"
+                     /ApEinfo_revcolor=#c7b0e3
+                     /ApEinfo_fwdcolor=#c7b0e3
+     mutation        1170..1170
+                     /label="G->T mutation in many constructs"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     Mutation        1172..1172
+                     /label="mutation C->G to kill Esp31"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
+     misc_feature    1191..1215
+                     /label="P"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     misc_feature    1216..1217
+                     /label="CC"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
+     misc_feature    1218..1242
+                     /label="P'"
+                     /ApEinfo_revcolor=#f8d3a9
+                     /ApEinfo_fwdcolor=#f8d3a9
+ORIGIN
+        1 gcatttagaa taaattttgt gtcgcCCGGC TTGTCGACGA CGGCGCACTC CGTCGTCAGG
+       61 ATCATCCcct tccgcgaaat taatacgact cactataggg gaattgtgag cggataacaa
+      121 ttGGGCCCAA GTTCACTTAA AAAGGAGATC AACAATGAAA GCAATTTTCG TACTGAAACA
+      181 TCTTAATCAT GCTAAGGAGG TTTTCTAATG GCATCTTGGA GCCACCCGCA ATTTGAGAAA
+      241 GGCACCGGAA GTGGTACTGG TTCAGGCACG GGTAGCTGGT CCCATCCGCA GTTCGAGAAA
+      301 AGCACTGGCT TGGAAGTACT GTTCCAGGGT CCAAGTACAG GTGTGAGTAA AGGTGAAGAA
+      361 AATAACATGG CGATTATTAA AGAATTTATG CGTTTTAAAG TGCGCATGGA AGGTAGCGTC
+      421 AACGGTCATG AGTTTGAAAT CGAAGGTGAA GGCGAAGGCC GTCCGTATGA AGGCTTCCAG
+      481 ACCGTGAAAC TGAAAGTGAC CAAAGGCGGC CCGCTGCCGT TTGCGTGGGA TATTCTGAGC
+      541 CCGCAGTTTA CCTACGGCAG CAAAGCCTAC GTGAAACATC CGGCGGATAT CCCGGATTAC
+      601 CTGAAACTGA GCTTTCCGGA AGGCTTTAAA TGGGAACGTG TGATGAACTT TGAAGATGGT
+      661 GGTGTGGTGA CCGTGACCCA GGATAGTTCC TTGCAGGATG GCGAATTCAT TTACAAAGTT
+      721 AAACTTCGCG GCACCAACTT TCCGAGCGAT GGCCCGGTGA TGCAGAAGAA AACCATGGGC
+      781 ATGGAAGCGT CCTCGGAACG TATGTACCCG GAAGATGGCG CGCTGAAAGG CGAAGATAAA
+      841 CTGCGCCTGA AGCTGAAAGA CGGCGGTCAC TATACCAGCG AAGTGAAAAC CACCTATAAA
+      901 GCTAAGAAAC CGGTGCAGCT GCCGGGCGCG TACATTGTTG ATATCAAACT GGATATCACC
+      961 TCCCATAACG AAGACTATAC CATCGTGGAA CAGTACGAAC GCGCCGAAGG TCGCCATAGC
+     1021 ACCGGCGGTA TGGATGAACT GTATAAAGGT TCCGGTTCTG GCGCCCACAT CGTGATGGTG
+     1081 GACGCCTACA AGCCGACGAA Gtaaactagt ccccctagca taaccccttg gggcctctaa
+     1141 acgggtcttg aggggttttt tgcccctgag aggcgtcaat cgagttcgta GTGGTTTGTC
+     1201 TGGTCAACCA CCGCGCCCTC AGTGGTGTAC GGTACAAACC CAcctaaggg cgacaccc
+//

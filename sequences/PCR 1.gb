@@ -1,0 +1,86 @@
+LOCUS       PCR_1                   1654 bp ds-DNA     linear       11-APR-2020
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..26
+                     /label="rgo0119_pJEx411_T7FW_BiotinTEG_66C"
+                     /note="sequence: ccttccgcgaaattaatacgactcac"
+                     /ApEinfo_revcolor=#f7977a
+                     /ApEinfo_fwdcolor=#f7977a
+     misc_feature    14..55
+                     /label="P_T7_Inducible"
+                     /ApEinfo_revcolor=#d6b295
+                     /ApEinfo_fwdcolor=#d6b295
+     misc_feature    35..55
+                     /label="LacO1"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     misc_feature    86..96
+                     /label="strong RBS"
+                     /ApEinfo_revcolor=#9eafd2
+                     /ApEinfo_fwdcolor=#9eafd2
+     gene            86..1452
+                     /label="me0052_ALS-10_mScarletI_6-SpyT_TS"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     CDS             100..1452
+                     /label="Translation 100-1452"
+     misc_feature    1363..1386
+                     /label="StrepII"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     misc_feature    1363..1449
+                     /label="Twin-Strep"
+                     /ApEinfo_revcolor=#f8d3a9
+                     /ApEinfo_fwdcolor=#f8d3a9
+     misc_feature    1387..1422
+                     /label="linker_(G3S)x3"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     misc_feature    1423..1449
+                     /label="StrepII_*"
+                     /ApEinfo_revcolor=#f8d3a9
+                     /ApEinfo_fwdcolor=#f8d3a9
+     misc_feature    1457..1504
+                     /label="Term_T7"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     primer          complement(1634..1654)
+                     /label="rgo0120_pJEx411_RvBiotinTEG_66C"
+                     /note="sequence: cgatggtagtgtggggactcc"
+                     /ApEinfo_revcolor=#d6b295
+                     /ApEinfo_fwdcolor=#d6b295
+     primer          complement(1634..1654)
+                     /label="rgo0121_pJEx411_Rv_66C"
+                     /note="sequence: cgatggtagtgtggggactcc"
+                     /ApEinfo_revcolor=#f7977a
+                     /ApEinfo_fwdcolor=#f7977a
+ORIGIN
+        1 CCTTCCGCGA AATTAATACG ACTCACTATA GGGGAATTGT GAGCGGATAA CAATTCCCCT
+       61 CTAGAAATAA TTTTGTTTAA CTTTTAGGAG GTAAAACATA TGGCCAGCCA AATTTATGAA
+      121 GGCAAGTTGA CGGCTGAGGG TCTGCGTTTC GGTATTGTTG CGAGCCGCTT TAACCACGCA
+      181 CTGGTGGACC GCCTGGTCGA GGGTGCGATT GATTGCATCG TTCGTCATGG CGGCCGTGAG
+      241 GAAGATATCA CGCTGGTTCG TGTCCCGGGC AGCTGGGAAA TCCCGGTTGC GGCTGGCGAG
+      301 TTGGCGCGTA AAGAAGATAT CGACGCAGTC ATTGCCATCG GCGTTCTGAT CCGTGGTGCG
+      361 ACTCCGGCGT TTGATTACAT TGCATCCGAA GTTAGCAAAG GCCTGGCAAA TCTGTCGCTG
+      421 GAACTGCGTA AACCGATTAC GTTCGGCGTA ATCACCGCGG ACACCTTGGA ACAGGCAATT
+      481 GAGCGTGCGG GTACCAAACA TGGTAATAAG GGTTGGGAAG CGGCGCTGAG CGCGATTGAG
+      541 ATGGCGAACC TGTTTAAGTC TCTGCGCACG GGTAGCGGCA GCGGTAGCGG TGAGTCTGGT
+      601 GTCAGCAAAG GTGAAGCCGT GATTAAAGAA TTTATGCGTT TCAAAGTGCA CATGGAAGGC
+      661 TCGATGAATG GTCACGAATT CGAGATCGAG GGTGAGGGCG AGGGTCGCCC TTATGAGGGT
+      721 ACCCAGACCG CGAAGCTGAA AGTCACCAAG GGTGGCCCAT TGCCGTTCAG CTGGGACATT
+      781 CTGAGCCCGC AATTTATGTA CGGTAGCCGC GCATTCATCA AGCACCCGGC AGACATTCCG
+      841 GACTACTACA AGCAAAGCTT TCCGGAAGGC TTCAAATGGG AGCGCGTGAT GAACTTTGAG
+      901 GACGGTGGCG CCGTTACGGT GACCCAGGAT ACCAGCCTGG AAGATGGCAC CCTGATCTAT
+      961 AAAGTGAAAC TGCGTGGTAC CAACTTCCCG CCGGACGGTC CGGTCATGCA GAAAAAGACC
+     1021 ATGGGCTGGG AAGCCAGCAC GGAACGTCTG TACCCAGAGG ATGGTGTGCT GAAGGGTGAC
+     1081 ATCAAAATGG CGTTGCGTCT GAAGGATGGT GGTCGTTACC TGGCTGACTT CAAGACTACG
+     1141 TATAAGGCAA AGAAACCTGT GCAGATGCCG GGCGCTTACA ATGTCGATCG TAAACTGGAC
+     1201 ATCACCAGCC ACAACGAAGA TTATACGGTT GTTGAGCAAT ATGAGCGCTC CGAGGGTCGC
+     1261 CATAGCACCG GTGGCATGGA CGAACTGTAC AAGGGCTCTG GTGAGAGCGG TGCGCACATT
+     1321 GTGATGGTCG ATGCCTACAA GCCGACCAAA ACGGGCAGCG CGTGGTCCCA CCCGCAGTTC
+     1381 GAAAAGGGTG GCGGCAGCGG CGGCGGCTCT GGCGGCGGCA GCTGGAGCCA CCCGCAATTC
+     1441 GAGAAGTAAT AACCCCCTAG CATAACCCCT TGGGGCCTCT AAACGGGTCT TGAGGGGTTT
+     1501 TTTGCCCCTG AGACGCGTCA ATCGAGTTCG TACCTAAGGG CGACACCCCC TAATTAGCCC
+     1561 GGGCGAAAGG CCCAGTCTTT CGACTGAGCC TTTCGTTTTA TTTGATGCCT GGCAGTTCCC
+     1621 TACTCTCGCA TGGGGAGTCC CCACACTACC ATCG
+//

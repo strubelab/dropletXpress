@@ -1,0 +1,82 @@
+LOCUS       PCR_8                   1690 bp ds-DNA     linear       11-APR-2020
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..39
+                     /label="aro0013_Primer 1 GG/Beads"
+                     /note="sequence: AACAATGGTCTCCACCGCccttccgcgaaattaatacga"
+                     /ApEinfo_revcolor=#f7977a
+                     /ApEinfo_fwdcolor=#f7977a
+     misc_feature    1..73
+                     /label="P_T7_Inducible"
+                     /ApEinfo_revcolor=#d6b295
+                     /ApEinfo_fwdcolor=#d6b295
+     misc_feature    53..73
+                     /label="LacO1"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     misc_feature    57..73
+                     /label="Partial_rgo0073"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
+     misc_feature    104..114
+                     /label="strong RBS"
+                     /ApEinfo_revcolor=#9eafd2
+                     /ApEinfo_fwdcolor=#9eafd2
+     gene            104..1470
+                     /label="me0052_ALS-10_mScarletI_6-SpyT_TS"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     CDS             118..1470
+                     /label="Translation 118-1470"
+     misc_feature    1381..1404
+                     /label="StrepII"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     misc_feature    1405..1440
+                     /label="linker_(G3S)x3"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     misc_feature    1441..1467
+                     /label="StrepII_*"
+                     /ApEinfo_revcolor=#f8d3a9
+                     /ApEinfo_fwdcolor=#f8d3a9
+     misc_feature    1475..1522
+                     /label="Term_T7"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     primer          complement(1655..1690)
+                     /label="aro0014_Primer 2 GG/Beads"
+                     /note="sequence: AACTTTGGTCTCGGGCAGCGATGGTAGTGTGGGGAC"
+                     /ApEinfo_revcolor=#f7977a
+                     /ApEinfo_fwdcolor=#f7977a
+ORIGIN
+        1 AACAATGGTC TCCACCGCcc ttccgcgaaa ttaatacgaC TCACTATAGG GGAATTGTGA
+       61 GCGGATAACA ATTCCCCTCT AGAAATAATT TTGTTTAACT TTTAGGAGGT AAAACATATG
+      121 GCCAGCCAAA TTTATGAAGG CAAGTTGACG GCTGAGGGTC TGCGTTTCGG TATTGTTGCG
+      181 AGCCGCTTTA ACCACGCACT GGTGGACCGC CTGGTCGAGG GTGCGATTGA TTGCATCGTT
+      241 CGTCATGGCG GCCGTGAGGA AGATATCACG CTGGTTCGTG TCCCGGGCAG CTGGGAAATC
+      301 CCGGTTGCGG CTGGCGAGTT GGCGCGTAAA GAAGATATCG ACGCAGTCAT TGCCATCGGC
+      361 GTTCTGATCC GTGGTGCGAC TCCGGCGTTT GATTACATTG CATCCGAAGT TAGCAAAGGC
+      421 CTGGCAAATC TGTCGCTGGA ACTGCGTAAA CCGATTACGT TCGGCGTAAT CACCGCGGAC
+      481 ACCTTGGAAC AGGCAATTGA GCGTGCGGGT ACCAAACATG GTAATAAGGG TTGGGAAGCG
+      541 GCGCTGAGCG CGATTGAGAT GGCGAACCTG TTTAAGTCTC TGCGCACGGG TAGCGGCAGC
+      601 GGTAGCGGTG AGTCTGGTGT CAGCAAAGGT GAAGCCGTGA TTAAAGAATT TATGCGTTTC
+      661 AAAGTGCACA TGGAAGGCTC GATGAATGGT CACGAATTCG AGATCGAGGG TGAGGGCGAG
+      721 GGTCGCCCTT ATGAGGGTAC CCAGACCGCG AAGCTGAAAG TCACCAAGGG TGGCCCATTG
+      781 CCGTTCAGCT GGGACATTCT GAGCCCGCAA TTTATGTACG GTAGCCGCGC ATTCATCAAG
+      841 CACCCGGCAG ACATTCCGGA CTACTACAAG CAAAGCTTTC CGGAAGGCTT CAAATGGGAG
+      901 CGCGTGATGA ACTTTGAGGA CGGTGGCGCC GTTACGGTGA CCCAGGATAC CAGCCTGGAA
+      961 GATGGCACCC TGATCTATAA AGTGAAACTG CGTGGTACCA ACTTCCCGCC GGACGGTCCG
+     1021 GTCATGCAGA AAAAGACCAT GGGCTGGGAA GCCAGCACGG AACGTCTGTA CCCAGAGGAT
+     1081 GGTGTGCTGA AGGGTGACAT CAAAATGGCG TTGCGTCTGA AGGATGGTGG TCGTTACCTG
+     1141 GCTGACTTCA AGACTACGTA TAAGGCAAAG AAACCTGTGC AGATGCCGGG CGCTTACAAT
+     1201 GTCGATCGTA AACTGGACAT CACCAGCCAC AACGAAGATT ATACGGTTGT TGAGCAATAT
+     1261 GAGCGCTCCG AGGGTCGCCA TAGCACCGGT GGCATGGACG AACTGTACAA GGGCTCTGGT
+     1321 GAGAGCGGTG CGCACATTGT GATGGTCGAT GCCTACAAGC CGACCAAAAC GGGCAGCGCG
+     1381 TGGTCCCACC CGCAGTTCGA AAAGGGTGGC GGCAGCGGCG GCGGCTCTGG CGGCGGCAGC
+     1441 TGGAGCCACC CGCAATTCGA GAAGTAATAA CCCCCTAGCA TAACCCCTTG GGGCCTCTAA
+     1501 ACGGGTCTTG AGGGGTTTTT TGCCCCTGAG ACGCGTCAAT CGAGTTCGTA CCTAAGGGCG
+     1561 ACACCCCCTA ATTAGCCCGG GCGAAAGGCC CAGTCTTTCG ACTGAGCCTT TCGTTTTATT
+     1621 TGATGCCTGG CAGTTCCCTA CTCTCGCATG GGGAGTCCCC ACACTACCAT CGCTGCCCGA
+     1681 GACCAAAGTT
+//
